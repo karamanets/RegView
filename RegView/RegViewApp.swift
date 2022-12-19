@@ -2,7 +2,7 @@
 //  RegViewApp.swift
 //  RegView
 //
-//  Created by Alex Karamanets on 18.12.2022.
+//  Created by Alex Karamanets on 19.12.2022.
 //
 
 import SwiftUI
