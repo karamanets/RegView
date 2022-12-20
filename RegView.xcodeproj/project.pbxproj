@@ -11,6 +11,9 @@
 		2C2F8C5D295029FD007DEA93 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F8C5C295029FD007DEA93 /* Main.swift */; };
 		2C2F8C5F295029FE007DEA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2F8C5E295029FE007DEA93 /* Assets.xcassets */; };
 		2C2F8C62295029FE007DEA93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2F8C61295029FE007DEA93 /* Preview Assets.xcassets */; };
+		2CD428652951F68D00540C75 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD428642951F68D00540C75 /* CustomShape.swift */; };
+		2CD428672951F6DB00540C75 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD428662951F6DB00540C75 /* LoginView.swift */; };
+		2CD428692951F71E00540C75 /* SingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD428682951F71E00540C75 /* SingUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2C2F8C5C295029FD007DEA93 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		2C2F8C5E295029FE007DEA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2F8C61295029FE007DEA93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CD428642951F68D00540C75 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		2CD428662951F6DB00540C75 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2CD428682951F71E00540C75 /* SingUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				2C2F8C5A295029FD007DEA93 /* RegViewApp.swift */,
 				2C2F8C5C295029FD007DEA93 /* Main.swift */,
+				2CD428662951F6DB00540C75 /* LoginView.swift */,
+				2CD428682951F71E00540C75 /* SingUp.swift */,
+				2CD428642951F68D00540C75 /* CustomShape.swift */,
 				2C2F8C5E295029FE007DEA93 /* Assets.xcassets */,
 				2C2F8C60295029FE007DEA93 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2F8C5D295029FD007DEA93 /* Main.swift in Sources */,
+				2CD428692951F71E00540C75 /* SingUp.swift in Sources */,
 				2C2F8C5B295029FD007DEA93 /* RegViewApp.swift in Sources */,
+				2CD428672951F6DB00540C75 /* LoginView.swift in Sources */,
+				2CD428652951F68D00540C75 /* CustomShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
