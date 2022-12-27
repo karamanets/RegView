@@ -5,15 +5,6 @@
 //  Created by Alex Karamanets on 19.12.2022.
 //
 
-/*
- Tasks 🦉
- 1. Refactoring      📌 ✅
- 2. Add logotype     📌
- 3. Mode adapt       📌 ✅
- 4. Add shadow imag  📌 ✅
- 5. Add animation    📌
- */
-
 import SwiftUI
 
 struct Main: View {
@@ -53,7 +44,7 @@ struct Main: View {
                     
                     HStack (spacing: 40) {
                         Button {
-                            //
+                            // come code
                         } label: {
                             Image("logoInsta")
                                 .resizable()
@@ -65,7 +56,7 @@ struct Main: View {
                                     .shadow(color: .black, radius: 3, x: -2, y: -2))
                         }
                         Button {
-                            //
+                            // some code
                         } label: {
                             Image("logoTwitter")
                                 .resizable()
@@ -77,7 +68,7 @@ struct Main: View {
                                     .shadow(color: .black, radius: 3, x: -2, y: -2))
                         }
                         Button {
-                            //
+                            // come code
                         } label: {
                             Image("logoYoutube")
                                 .resizable()
@@ -98,8 +89,6 @@ struct Main: View {
         }
     }
 }
-
-
 
 //                   📌
 struct Main_Previews: PreviewProvider {
