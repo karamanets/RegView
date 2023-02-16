@@ -8,23 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2C2F8C5B295029FD007DEA93 /* RegViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F8C5A295029FD007DEA93 /* RegViewApp.swift */; };
-		2C2F8C5D295029FD007DEA93 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F8C5C295029FD007DEA93 /* Main.swift */; };
+		2C2F8C5D295029FD007DEA93 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F8C5C295029FD007DEA93 /* MainView.swift */; };
 		2C2F8C5F295029FE007DEA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2F8C5E295029FE007DEA93 /* Assets.xcassets */; };
 		2C2F8C62295029FE007DEA93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2F8C61295029FE007DEA93 /* Preview Assets.xcassets */; };
 		2CD428652951F68D00540C75 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD428642951F68D00540C75 /* CustomShape.swift */; };
-		2CD428672951F6DB00540C75 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD428662951F6DB00540C75 /* LoginView.swift */; };
-		2CD428692951F71E00540C75 /* SingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD428682951F71E00540C75 /* SingUp.swift */; };
+		2CD428672951F6DB00540C75 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD428662951F6DB00540C75 /* SignInView.swift */; };
+		2CD428692951F71E00540C75 /* SingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD428682951F71E00540C75 /* SingUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C2F8C57295029FD007DEA93 /* RegView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2F8C5A295029FD007DEA93 /* RegViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewApp.swift; sourceTree = "<group>"; };
-		2C2F8C5C295029FD007DEA93 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		2C2F8C5C295029FD007DEA93 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2C2F8C5E295029FE007DEA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2F8C61295029FE007DEA93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CBEFB62299E7C3E00B47434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2CD428642951F68D00540C75 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
-		2CD428662951F6DB00540C75 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		2CD428682951F71E00540C75 /* SingUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUp.swift; sourceTree = "<group>"; };
+		2CD428662951F6DB00540C75 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		2CD428682951F71E00540C75 /* SingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				2C2F8C5A295029FD007DEA93 /* RegViewApp.swift */,
-				2C2F8C5C295029FD007DEA93 /* Main.swift */,
-				2CD428662951F6DB00540C75 /* LoginView.swift */,
-				2CD428682951F71E00540C75 /* SingUp.swift */,
-				2CD428642951F68D00540C75 /* CustomShape.swift */,
-				2C2F8C5E295029FE007DEA93 /* Assets.xcassets */,
+				2CBEFB61299E7BEA00B47434 /* View */,
+				2CBEFB60299E7A7400B47434 /* Components */,
 				2C2F8C60295029FE007DEA93 /* Preview Content */,
+				2C2F8C5E295029FE007DEA93 /* Assets.xcassets */,
+				2CBEFB62299E7C3E00B47434 /* Info.plist */,
 			);
 			path = RegView;
 			sourceTree = "<group>";
@@ -74,6 +74,24 @@
 				2C2F8C61295029FE007DEA93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CBEFB60299E7A7400B47434 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2CD428642951F68D00540C75 /* CustomShape.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2CBEFB61299E7BEA00B47434 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C2F8C5C295029FD007DEA93 /* MainView.swift */,
+				2CD428662951F6DB00540C75 /* SignInView.swift */,
+				2CD428682951F71E00540C75 /* SingUpView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2F8C5D295029FD007DEA93 /* Main.swift in Sources */,
-				2CD428692951F71E00540C75 /* SingUp.swift in Sources */,
+				2C2F8C5D295029FD007DEA93 /* MainView.swift in Sources */,
+				2CD428692951F71E00540C75 /* SingUpView.swift in Sources */,
 				2C2F8C5B295029FD007DEA93 /* RegViewApp.swift in Sources */,
-				2CD428672951F6DB00540C75 /* LoginView.swift in Sources */,
+				2CD428672951F6DB00540C75 /* SignInView.swift in Sources */,
 				2CD428652951F68D00540C75 /* CustomShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +299,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RegView/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = RegView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -309,7 +327,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RegView/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = RegView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

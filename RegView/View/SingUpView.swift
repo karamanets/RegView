@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SingUp: View {
+struct SingUpView: View {
     
     @State private var email  = ""
     @State private var pass   = ""
@@ -107,4 +107,9 @@ struct SingUp: View {
         }
     }
 }
-
+//                   🔱
+struct SingUpView_Previews: PreviewProvider {
+    static var previews: some View {
+        SingUpView(index: .constant(0))
+    }
+}

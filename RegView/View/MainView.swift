@@ -1,5 +1,5 @@
 //
-//  Main.swift
+//  MainView.swift
 //  RegView
 //
 //  Created by Alex Karamanets on 19.12.2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Main: View {
+struct MainView: View {
     
     @State private var index = 0
     
@@ -24,9 +24,9 @@ struct Main: View {
                     
                     ZStack {
                         
-                        SingUp(index: $index)
+                        SingUpView(index: $index)
                             .zIndex(Double(self.index))
-                        Login(index: $index)
+                        SignInView(index: $index)
                     }
                     HStack (spacing: 15) {
                         Rectangle()
@@ -89,11 +89,10 @@ struct Main: View {
         }
     }
 }
-
-//                   📌
-struct Main_Previews: PreviewProvider {
+//                   🔱
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        Main()
+        MainView()
     }
 }
 

@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  SignInView.swift
 //  RegView
 //
 //  Created by Alex Karamanets on 20.12.2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Login: View {
+struct SignInView: View {
     
     @State private var email = ""
     @State private var pass  = ""
@@ -102,5 +102,11 @@ struct Login: View {
             .offset(y: 26 )
             .opacity(self.index == 0 ? 1.0 : 0.0)
         }
+    }
+}
+//                   🔱
+struct SignInView_Previews: PreviewProvider {
+    static var previews: some View {
+        SignInView(index: .constant(0))
     }
 }
